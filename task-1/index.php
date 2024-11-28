@@ -11,10 +11,6 @@ if (isset($_GET['theme'])) {
         "httponly" => true,
         "samesite" => "Lax"
     ]);
-
-    // Перенаправляем пользователя на главную страницу
-    header("Location: /");
-    exit;
 }
 
 // Получаем текущую тему из Cookie
